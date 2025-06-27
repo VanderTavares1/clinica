@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0f7fa 0%, #ffffff 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background: #fff;
+    padding: 32px 28px 24px 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 123, 167, 0.12);
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-hospital {
+    width: 64px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    color: #007ba7;
+    margin-bottom: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #007ba7;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f8fafb;
+    transition: border 0.2s;
+}
+
+.input-group input:focus {
+    border: 1.5px solid #007ba7;
+    outline: none;
+    background: #fff;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background: #007ba7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.05em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #005f7a;
+}
+
+.error {
+    color: #d32f2f;
+    font-size: 0.97em;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.login-footer {
+    margin-top: 18px;
+    font-size: 0.95em;
+    color: #888;
+    text-align: center;
+}
