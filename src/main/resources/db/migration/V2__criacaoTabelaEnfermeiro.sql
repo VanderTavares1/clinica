@@ -1,0 +1,7 @@
+CREATE TABLE Enfermeiro (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    cpf INT NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    role TEXT NOT NULL
+);
